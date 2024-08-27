@@ -1,0 +1,9 @@
+.jumbotron {
+    padding: 6rem 1rem;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.container, .card-body {
+    text-align: left;
+}

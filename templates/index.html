@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+<!-- Изображение во всю ширину -->
+<div class="jumbotron jumbotron-fluid" style="background-image: url('https://via.placeholder.com/1920x600'); background-size: cover; color: white;">
+  <div class="container text-center">
+    <h1 class="display-4">Текст на изображении</h1>
+    <p><button class="btn btn-danger mt-3">Красная кнопка</button></p>
+  </div>
+</div>
+
+<!-- Небольшой текст -->
+<div class="container my-5">
+  <p class="lead text-center">Это небольшой текст, который расположен под изображением.</p>
+</div>
+
+<!-- Контейнер с отзывами -->
+<div class="container my-5">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Отзыв 1</h5>
+          <p class="card-text">Текст отзыва 1</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Отзыв 2</h5>
+          <p class="card-text">Текст отзыва 2</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Отзыв 3</h5>
+          <p class="card-text">Текст отзыва 3</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Центральная длинная карточка -->
+<div class="container my-5">
+  <div class="card">
+    <div class="card-body">
+      <h3 class="card-title text-left">Выполняем свою работу независимо от сложности задачи</h3>
+      <h4 class="card-title text-left">Поручите свои юридические проблемы профессионалам!</h4>
+      <p class="text-center">
+        <button class="btn btn-danger mt-3">СВЯЗАТЬСЯ С ЮРИСТОМ</button>
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
